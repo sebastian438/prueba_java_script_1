@@ -24,5 +24,19 @@ const palabraMayusculaEspaciada = devolverPalabraMayusculaEspaciada("adios");
 
 
 
+//EJERCICIO 02: Declara una función que acepte un nombre como parámetro y devuelva el número de palabras que tiene el nombre. Ejemplo: Para "Antonio Alberto Jesús" devolverá 3.
+
+//Explicación del ejercicio: Mi función almacena cada palabra de nombre en un array, luego devuelve como resultado la longitud de ese array.
+
+
+function devolverNumeroPalbarasNombre(nombre) {
+    let arrayNombre = nombre.split(" ");
+    let numeroPalabrasNombre = arrayNombre.length;
+    return numeroPalabrasNombre;
+}
+
+// console.log(devolverNumeroPalbarasNombre("sebas correa rodriguez gato perro"));
+
+
 
 
